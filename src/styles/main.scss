@@ -1,0 +1,22 @@
+@use 'apresentacao';
+@use 'opcao';
+@use 'atores';
+@use 'cabesalho';
+@use 'cores';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: cores.$corFundo;
+    color: cores.$corTexto;
+}
+
+li {
+    list-style: none;
+}

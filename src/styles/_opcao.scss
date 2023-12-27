@@ -1,0 +1,53 @@
+@use 'cores';
+
+
+
+.opcao {
+    max-width: 870px;
+    margin: 40px auto;
+
+    button {
+        background-color: cores.$corFundo;
+        color: cores.$corTexto;
+    }
+
+    p {
+        margin: 18px 0;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+
+
+        &__item {
+            padding: 10px 15px;
+            margin:  18px;
+            border: none;
+            border-bottom: 3px solid transparent;
+            font-size: 24px;
+            cursor: pointer;
+
+            &--is-active {
+                border-color: cores.$corTexto;
+            }
+        }
+    }
+
+    .opcao__sobre {
+        display: none;
+
+        &--is-active {
+            display: block;
+        }
+
+        &__imagem1 {
+            height: 360px;
+            margin-top: 40px;
+        }
+    }
+}

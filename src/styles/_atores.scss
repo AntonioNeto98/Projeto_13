@@ -1,0 +1,21 @@
+.atores {
+margin: 20px;
+
+    .opcao__sobre {
+        display: none;
+        justify-content: space-around;
+
+        &--is-active {
+            display: flex;
+        }
+        &__atores {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 45px;
+            
+            &__item {
+                height: 200px;
+            }
+        }
+    }
+}

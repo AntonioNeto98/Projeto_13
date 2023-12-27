@@ -1,0 +1,10 @@
+@use 'cores';
+
+.cabesalho {
+    background-color: cores.$corTexto;
+    color: cores.$corFundo;
+    display: flex;
+    justify-content: center;
+    padding:  22px;
+    margin-bottom: 60px;
+}
