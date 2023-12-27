@@ -47,14 +47,26 @@
             display: block;
         }
 
+        .imagens {
+            @media (max-width: 768px) {
+                display: flex;
+                justify-content: center;
+            }
+        }
         &__imagem1 {
             height: 360px;
             margin-top: 40px;
 
             @media (max-width: 768px) {
-                height:  90%;
+                height:  133px;
+                
             }
         
+        }
+        &__imagem2 {
+            @media (max-width: 768px) {
+                height:  205px;
+            }
         }
     }
 }
