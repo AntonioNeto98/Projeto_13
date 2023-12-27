@@ -5,6 +5,7 @@
 .opcao {
     max-width: 870px;
     margin: 40px auto;
+    
 
     button {
         background-color: cores.$corFundo;
@@ -22,6 +23,7 @@
     &__list {
         display: flex;
         justify-content: center;
+        
 
 
         &__item {
@@ -48,6 +50,11 @@
         &__imagem1 {
             height: 360px;
             margin-top: 40px;
+
+            @media (max-width: 768px) {
+                height:  90%;
+            }
+        
         }
     }
 }

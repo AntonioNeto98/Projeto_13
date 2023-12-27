@@ -7,11 +7,20 @@ margin: 20px;
 
         &--is-active {
             display: flex;
+        
         }
         &__atores {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 45px;
+
+            @media (max-width: 768px) {
+                width:  100%;
+                display: block;
+                align-items: center;
+                margin-left: 25%;
+            }
+        
             
             &__item {
                 height: 200px;
